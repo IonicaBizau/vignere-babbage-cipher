@@ -1,5 +1,12 @@
 "use strict";
 
-const vignereBabbageCipher = require("../lib");
+const Cipher = require("../lib");
 
-console.log(vignereBabbageCipher());
+// Key used to encryp/decrypt
+const key = "ROSEMARY"
+
+console.log(Cipher.encrypt("BEGINTHEATTACKATDAWN", key))
+// => SSYMZTYCBXZIPDHXDTPN
+
+console.log(Cipher.decrypt("SSYMZTYCBXZIPDHXDTPN", key))
+// => BEGINTHEATTACKATDAWN
