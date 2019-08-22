@@ -1,4 +1,7 @@
 {
+  "scripts": {
+    "test": "node test/index.js"
+  },
   "name": "vignere-babbage-cipher",
   "description": "Encrypt/decrypt by using the Vignere–Babbage cipher",
   "keywords": [
@@ -14,9 +17,6 @@
   "license": "MIT",
   "version": "1.0.1",
   "main": "lib/index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
   "author": "Ionică Bizău <bizauionica@gmail.com> (https://ionicabizau.net)",
   "homepage": "https://github.com/IonicaBizau/vignere-babbage-cipher#readme",
   "files": [
@@ -40,5 +40,8 @@
   },
   "bugs": {
     "url": "https://github.com/IonicaBizau/vignere-babbage-cipher/issues"
+  },
+  "devDependencies": {
+    "tester": "^1.4.4"
   }
 }
