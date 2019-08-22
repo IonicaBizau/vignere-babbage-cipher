@@ -15,7 +15,7 @@
     "the"
   ],
   "license": "MIT",
-  "version": "1.0.1",
+  "version": "1.1.0",
   "main": "lib/index.js",
   "author": "Ionică Bizău <bizauionica@gmail.com> (https://ionicabizau.net)",
   "homepage": "https://github.com/IonicaBizau/vignere-babbage-cipher#readme",
