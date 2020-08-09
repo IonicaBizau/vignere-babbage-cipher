@@ -6,6 +6,7 @@ You can see below the API reference of this module.
 Encrypt the plain text.
 
 #### Params
+
 - **String** `input`: The plain text to encrypt.
 - **String** `key`: The key.
 
@@ -16,6 +17,7 @@ Encrypt the plain text.
 Decrypt the input.
 
 #### Params
+
 - **String** `input`: Decrypt the encrypted text.
 - **String** `key`: The key.
 
