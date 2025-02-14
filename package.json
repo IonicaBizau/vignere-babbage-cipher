@@ -15,7 +15,7 @@
     "the"
   ],
   "license": "MIT",
-  "version": "1.1.3",
+  "version": "1.1.4",
   "main": "lib/index.js",
   "author": "Ionică Bizău <bizauionica@gmail.com> (https://ionicabizau.net)",
   "homepage": "https://github.com/IonicaBizau/vignere-babbage-cipher#readme",
@@ -30,6 +30,8 @@
     "menu/",
     "cli.js",
     "index.js",
+    "index.d.ts",
+    "package-lock.json",
     "bloggify.js",
     "bloggify.json",
     "bloggify/"
